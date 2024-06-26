@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &_title {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 80px;
+  }
+}
+
+.search {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  &_searchBar {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  //display: grid;
+  //grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}

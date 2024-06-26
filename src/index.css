@@ -1,8 +1,14 @@
 body {
   margin: 0;
+  padding: 25px 50px;
   display: flex;
-  place-items: center;
+  flex-direction: column;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #f4d467;
+}
+
+#root {
+  width: 100%;
 }
